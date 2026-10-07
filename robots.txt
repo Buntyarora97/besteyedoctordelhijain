@@ -3,5 +3,13 @@ Allow: /
 Disallow: /admin/
 Disallow: /storage/
 Disallow: /app/
+Disallow: /database/
+Disallow: /views/
+Disallow: /attached_assets/
+Disallow: /besteyedoctordelhiphpmysqlzipzip/
+Disallow: /screenshots/
+Disallow: /.git/
+Disallow: /.agents/
+Disallow: /.local/
 
-Sitemap: https://besteyedoctordelhi.com/sitemap.xml.php
+Sitemap: https://besteyedoctordelhi.com/sitemap.xml

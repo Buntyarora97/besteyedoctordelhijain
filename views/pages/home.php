@@ -33,7 +33,7 @@ $homeImages = [
     <div class="hero-gallery" aria-label="Jain Eye Hospital care and facilities">
       <div class="hero-gallery-glass" aria-hidden="true"></div>
       <div class="hero-gallery-main">
-        <img src="<?= e($homeImages['team']) ?>" alt="Ophthalmologist in a hospital consultation area" width="680" height="520">
+        <img src="<?= e($homeImages['team']) ?>" alt="Eye-care clinician in a hospital consultation area" width="680" height="520" fetchpriority="high">
         <span class="hero-photo-label">Specialist-led care</span>
       </div>
       <div class="hero-gallery-tile hero-gallery-tile-one">
@@ -41,8 +41,8 @@ $homeImages = [
         <span>Welcome, always</span>
       </div>
       <div class="hero-gallery-tile hero-gallery-tile-two">
-        <img src="<?= e($homeImages['care']) ?>" alt="Jain Eye Hospital exterior" loading="lazy" width="300" height="220">
-        <span>Care in Delhi</span>
+        <img src="<?= e($homeImages['care']) ?>" alt="Shalimar Bagh Metro station entrance" loading="lazy" width="300" height="220">
+        <span>Nearby metro access</span>
       </div>
       <div class="hero-gallery-tile hero-gallery-tile-four">
         <img src="<?= e($homeImages['hero']) ?>" alt="Jain Eye Hospital waiting area" loading="lazy" width="300" height="220">
@@ -102,12 +102,15 @@ $homeImages = [
   <div class="wrap">
     <div class="section-heading row-heading"><div><p class="eyebrow">Meet the team</p><h2>Specialists who listen first.</h2></div><a class="text-link" href="/doctors">View all doctors <span>→</span></a></div>
     <div class="doctor-layout">
-      <div class="team-feature-image"><img src="<?= e($homeImages['team']) ?>" alt="Ophthalmologist in a hospital consultation area" loading="lazy" width="720" height="520"><span class="image-note">A patient-first approach to every consultation</span></div>
+       <div class="team-feature-image"><img src="<?= e($homeImages['team']) ?>" alt="Eye-care clinician in a hospital consultation area" loading="lazy" width="720" height="520"><span class="image-note">A patient-first approach to every consultation</span></div>
       <div class="card-grid team-cards">
       <?php foreach ($doctors as $d): ?>
         <article class="card doctor-card"><div class="doctor-avatar"><?= e(strtoupper(substr($d['name'], 0, 1))) ?></div><h3><?= e($d['name']) ?></h3><p class="muted"><?= e($d['designation']) ?></p><p><?= e($d['focus_areas']) ?></p><div class="card-actions"><a class="btn btn-outline btn-small" href="/doctors/<?= e($d['slug']) ?>">View profile</a><a class="btn btn-primary btn-small" href="/book-appointment?doctor=<?= (int)$d['id'] ?>">Book</a></div></article>
       <?php endforeach; ?>
-      <?php if (!$doctors): ?><article class="card empty-card"><span class="status-dot"></span><h3>Profiles are being verified</h3><p class="muted">Hospital-approved doctor profiles will appear here once credentials and scope are confirmed.</p><a class="text-link" href="/contact">Ask our team for guidance <span>→</span></a></article><?php endif; ?>
+       <?php if (!$doctors): ?><article class="card empty-card">
+         <img src="/public/assets/images/clinical/neha-mohan-4.webp" alt="Eye examination using a slit-lamp instrument" loading="lazy" width="560" height="360">
+         <div><span class="status-dot"></span><p class="eyebrow">Doctor profiles</p><h3>Profiles are being verified</h3><p class="muted">Names, credentials and areas of practice are published only after hospital verification. Use the specialist guide to explore a starting point meanwhile.</p><a class="text-link" href="/find-an-eye-doctor">Find a care pathway <span>→</span></a></div>
+       </article><?php endif; ?>
       </div>
     </div>
   </div>
@@ -234,7 +237,7 @@ $homeImages = [
   </div>
 </section>
 
-<!-- 10. Patient voices, Google reviews and Instagram -->
+<!-- 10. Patient voices, Google reviews and hospital gallery -->
 <section class="section trust-section trust-redesign" id="trust-section">
   <div class="wrap">
     <div class="trust-heading">
@@ -251,15 +254,15 @@ $homeImages = [
         <?php if ($testimonials): foreach ($testimonials as $t): ?>
           <blockquote class="trust-quote"><span class="quote-mark">“</span><p><?= e($t['content']) ?></p><footer><?= e($t['patient_name']) ?><?= $t['treatment_ref'] ? ' · '.e($t['treatment_ref']) : '' ?></footer></blockquote>
         <?php endforeach; else: ?>
-          <div class="trust-empty"><span class="quote-mark">“</span><h3>Every patient story deserves context.</h3><p>Authentic patient testimonials will appear here after consent and verification.</p><a class="text-link" href="/contact">Share an experience with us <span>→</span></a></div>
+          <div class="trust-empty"><span class="quote-mark">“</span><h3>Every patient story deserves context.</h3><p>We publish patient experiences only when consent and authenticity can be confirmed. While stories are being verified, use these practical resources to prepare for your visit.</p><div class="trust-resource-links"><a href="/patient-guide/first-visit">First-visit checklist <b>→</b></a><a href="/patient-guide/questions-to-ask">Questions to ask <b>→</b></a><a href="/faqs">Appointment FAQs <b>→</b></a></div></div>
         <?php endif; ?>
         <div class="trust-panel-footer"><span>Stories are published only with permission.</span><span class="trust-dots" aria-hidden="true"><i></i><i></i><i></i></span></div>
       </article>
       <?php $trustImages = [$homeImages['team'], $homeImages['waiting'], $homeImages['care'], $homeImages['clinic']]; ?>
       <article class="trust-media-panel">
-        <div class="trust-media-head"><span class="social-glyph">◎</span><div><b>Care, explained simply.</b><span>Patient education from the clinic</span></div><span class="trust-follow">FOLLOW</span></div>
-        <div class="instagram-grid"><?php foreach ($trustImages as $i => $image): ?><div class="trust-media-tile"><img src="<?= e($image) ?>" alt="Jain Eye Hospital care and facility visual <?= $i + 1 ?>" loading="lazy" width="420" height="280"><span><?= sprintf('%02d', $i + 1) ?></span></div><?php endforeach; ?></div>
-        <div class="trust-media-footer"><span>Four snapshots of thoughtful care</span><a href="/gallery">View media gallery <b>↗</b></a></div>
+        <div class="trust-media-head"><span class="social-glyph" aria-hidden="true">◉</span><div><b>Care, explained simply.</b><span>Patient education and hospital spaces</span></div><span class="trust-follow">GALLERY</span></div>
+        <div class="instagram-grid"><?php foreach ($trustImages as $i => $image): ?><div class="trust-media-tile"><img src="<?= e($image) ?>" alt="Eye-care and hospital environment photo <?= $i + 1 ?>" loading="lazy" width="420" height="280"><span><?= sprintf('%02d', $i + 1) ?></span></div><?php endforeach; ?></div>
+        <div class="trust-media-footer"><span>Four views of eye-care spaces and work</span><a href="/gallery">View photo gallery <b>↗</b></a></div>
       </article>
     </div>
     <div class="trust-proof-strip"><span><b>01</b> Clear explanations</span><span><b>02</b> Respectful conversations</span><span><b>03</b> Care with context</span></div>
@@ -271,13 +274,21 @@ $homeImages = [
   <div class="wrap">
     <div class="knowledge-heading">
       <div><p class="eyebrow">Knowledge hub</p><h2>Clear answers for important<br><em>questions.</em></h2><p>Patient-friendly guidance to help you understand your next eye-care conversation.</p></div>
-      <a class="knowledge-explore" href="/articles">Explore all articles <b>→</b></a>
+      <a class="knowledge-explore" href="/articles">Explore all guides <b>→</b></a>
     </div>
     <div class="article-grid knowledge-cards">
-      <?php if ($articles): foreach ($articles as $i => $a): ?>
-        <a class="article-card" style="--article-index:<?= (int)$i ?>" href="/articles/<?= e($a['slug']) ?>"><div class="article-card-top"><span class="article-tag">MEDICALLY REVIEWED</span><span class="article-number"><?= sprintf('%02d', $i + 1) ?></span></div><h3><?= e($a['title']) ?></h3><p><?= e($a['excerpt']) ?></p><span class="article-read">Read article <b>→</b></span></a>
+      <?php if ($articles): foreach ($articles as $i => $a):
+        $articleHref = $a['link'] ?? ('/articles/' . rawurlencode($a['slug']));
+        $articleImage = $a['image'] ?? '/public/assets/images/clinical/hospital-pic-9.webp';
+        $articleAlt = $a['image_alt'] ?? 'A welcoming eye-care clinic environment';
+        $isReviewed = !empty($a['reviewer_name']) && !empty($a['reviewed_at']);
+      ?>
+        <a class="article-card" style="--article-index:<?= (int)$i ?>" href="<?= e($articleHref) ?>">
+          <div class="article-card-image"><img src="<?= e($articleImage) ?>" alt="<?= e($articleAlt) ?>" loading="<?= $i < 3 ? 'eager' : 'lazy' ?>" width="560" height="320"></div>
+          <div class="article-card-content"><div class="article-card-top"><span class="article-tag"><?= $isReviewed ? 'CLINICALLY REVIEWED' : 'PATIENT EDUCATION' ?></span><span class="article-number"><?= sprintf('%02d', $i + 1) ?></span></div><h3><?= e($a['title']) ?></h3><p><?= e($a['excerpt'] ?? 'Explore this eye-care guide and prepare questions for your next visit.') ?></p><span class="article-read"><?= !empty($a['link']) ? 'Read guide' : 'Read article' ?> <b>→</b></span></div>
+        </a>
       <?php endforeach; else: ?>
-        <div class="knowledge-empty"><span class="knowledge-empty-icon" aria-hidden="true">✦</span><div><span class="article-tag">COMING SOON</span><h3>Patient-friendly eye-care guides</h3><p>Our clinically reviewed articles are being prepared for publication.</p></div><a class="article-read" href="/faqs">Browse FAQs <b>→</b></a></div>
+        <div class="knowledge-empty"><span class="knowledge-empty-icon" aria-hidden="true">✦</span><div><span class="article-tag">PATIENT EDUCATION</span><h3>Guides are being prepared</h3><p>Use the existing concern guides and FAQs while new articles are reviewed.</p></div><a class="article-read" href="/faqs">Browse FAQs <b>→</b></a></div>
       <?php endif; ?>
     </div>
     <div class="knowledge-note"><span>Learn at your pace</span><span>Education only · No diagnosis</span></div>

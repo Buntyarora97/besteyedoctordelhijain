@@ -5,7 +5,20 @@ $selDoc = (int)($_GET['doctor'] ?? 0); ?>
   <h1>Book an Eye Consultation</h1>
   <p class="lead">Request an appointment with the right specialist at Jain Eye Hospital &amp; Laser Centre, Shalimar Bagh.</p>
 </div></section>
-<section class="section"><div class="wrap narrow">
+<section class="section"><div class="wrap form-with-aside">
+  <aside class="form-aside">
+    <figure class="form-aside-image">
+      <img src="/public/assets/images/clinical/hospital-pic-14.webp" alt="An eye examination room prepared for a patient visit" width="720" height="480" loading="lazy">
+      <figcaption>Eye-care facilities · illustrative photo</figcaption>
+    </figure>
+    <div class="form-aside-copy">
+      <p class="eyebrow">Plan your appointment request</p>
+      <h2>A few details help the team respond.</h2>
+      <p>Share your main concern and preferred timing. You can bring previous prescriptions, reports and current glasses to your visit instead of adding sensitive details here.</p>
+      <a class="text-link" href="/patient-guide/first-visit">See the first-visit checklist <b aria-hidden="true">→</b></a>
+    </div>
+  </aside>
+  <div class="form-panel">
   <?php if ($ok): ?><p class="success">Your request has been received — Reference <strong><?= e($ok) ?></strong>. The appointment is confirmed only after the hospital contacts you.</p><?php endif; ?>
   <?php if ($err): ?><p class="error" role="alert"><?= e($err) ?></p><?php endif; ?>
   <form action="/book-appointment" method="post" class="form">
@@ -28,4 +41,5 @@ $selDoc = (int)($_GET['doctor'] ?? 0); ?>
     <button class="btn btn-primary" type="submit">Request Appointment</button>
     <p class="microcopy">We never ask for Aadhaar or detailed medical history in this form.</p>
   </form>
+  </div>
 </div></section>

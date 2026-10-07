@@ -1,10 +1,12 @@
 <?php
 $galleryLabels = [
     'facility' => 'Hospital spaces',
+    'access' => 'Area & access',
     'consultation' => 'Eye examinations',
     'diagnostics' => 'Clinical equipment',
     'surgery' => 'Surgical care',
     'team' => 'Clinical team',
+    'patient-care' => 'Patient care',
 ];
 $groups = array_values(array_unique(array_column($items, 'category')));
 $galleryImageRoot = '/public/assets/images/clinical/';
@@ -45,7 +47,7 @@ $galleryPhoneHref = preg_replace('/[^0-9+]/', '', HOSPITAL_PHONE);
       <?php foreach ($items as $index => $item): ?>
         <a class="gallery-card" href="<?= e($galleryImageRoot . $item['src']) ?>" data-gallery-open data-gallery-category="<?= e($item['category']) ?>" data-gallery-title="<?= e($item['title']) ?>">
           <figure>
-            <img src="<?= e($galleryImageRoot . $item['src']) ?>" alt="<?= e($item['alt']) ?>" loading="lazy" decoding="async" width="800" height="600">
+            <img src="<?= e($galleryImageRoot . $item['src']) ?>" alt="<?= e($item['alt']) ?>" loading="<?= $index < 6 ? 'eager' : 'lazy' ?>" decoding="async" fetchpriority="<?= $index === 0 ? 'high' : 'auto' ?>" width="800" height="600">
             <span class="gallery-card-index"><?= sprintf('%02d', $index + 1) ?></span>
             <figcaption><span class="gallery-card-category"><?= e($galleryLabels[$item['category']] ?? ucfirst($item['category'])) ?></span><strong><?= e($item['title']) ?></strong><span class="gallery-open-mark" aria-hidden="true">↗</span></figcaption>
           </figure>

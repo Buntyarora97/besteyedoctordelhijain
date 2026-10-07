@@ -1,8 +1,8 @@
 <?php
 return [
-    ['src'=>'hospital-pic-4.webp','title'=>'Hospital entrance','alt'=>'Exterior entrance to the hospital','category'=>'facility'],
-    ['src'=>'hospital-pic-5.webp','title'=>'Clinic approach','alt'=>'Approach to the hospital entrance','category'=>'facility'],
-    ['src'=>'hospital-pic-6.webp','title'=>'Eye-care consultation','alt'=>'An eye-care clinician speaking with a patient','category'=>'consultation'],
+    ['src'=>'hospital-pic-4.webp','title'=>'Shalimar Bagh Metro station','alt'=>'Shalimar Bagh Metro station entrance near the hospital','category'=>'access'],
+    ['src'=>'hospital-pic-5.webp','title'=>'Metro station access','alt'=>'Public transport access near Shalimar Bagh','category'=>'access'],
+    ['src'=>'hospital-pic-6.webp','title'=>'Patient reception','alt'=>'Staff at the eye-hospital reception desk','category'=>'facility'],
     ['src'=>'hospital-pic-7.webp','title'=>'Patient consultation','alt'=>'A clinician and patient in a consultation room','category'=>'consultation'],
     ['src'=>'hospital-pic-8.webp','title'=>'Reception','alt'=>'Hospital reception and patient desk','category'=>'facility'],
     ['src'=>'hospital-pic-9.webp','title'=>'Waiting area','alt'=>'Seating in a hospital waiting area','category'=>'facility'],
@@ -11,6 +11,7 @@ return [
     ['src'=>'hospital-pic-12.webp','title'=>'Procedure room','alt'=>'Clinical procedure room prepared for care','category'=>'facility'],
     ['src'=>'hospital-pic-13.webp','title'=>'Patient seating','alt'=>'Comfortable seating in a hospital waiting area','category'=>'facility'],
     ['src'=>'hospital-pic-14.webp','title'=>'Examination room','alt'=>'An ophthalmic examination room','category'=>'diagnostics'],
+    ['src'=>'hospital-pic-15.webp','title'=>'Clinical assessment','alt'=>"A clinician checks a patient's blood pressure during a hospital visit",'category'=>'patient-care'],
     ['src'=>'hospital-pic-16.webp','title'=>'Clinical equipment','alt'=>'Clinical equipment used during eye examinations','category'=>'diagnostics'],
     ['src'=>'hospital-pic-17.webp','title'=>'Diagnostic equipment','alt'=>'Ophthalmic diagnostic equipment in a clinical setting','category'=>'diagnostics'],
     ['src'=>'neha-mohan.webp','title'=>'Clinical team portrait','alt'=>'Ophthalmologist in a clinical setting','category'=>'team'],

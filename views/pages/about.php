@@ -4,6 +4,22 @@
   <p class="lead">A patient-first specialist-discovery website associated with Jain Eye Hospital &amp; Laser Centre, Delhi.</p>
 </div></section>
 
+<section class="section about-feature" aria-labelledby="about-feature-heading">
+  <div class="wrap about-feature-layout">
+    <figure class="about-feature-image">
+      <img src="/public/assets/images/clinical/hospital-pic-8.webp" alt="Patient reception desk inside the eye hospital" width="800" height="500" loading="lazy">
+      <figcaption>Clear information for each step of your visit</figcaption>
+    </figure>
+    <div class="about-feature-copy">
+      <p class="eyebrow">A clearer starting point</p>
+      <h2 id="about-feature-heading">Guidance first. Personal care in the clinic.</h2>
+      <p>This website helps you understand eye-care pathways, prepare questions and find hospital contact information. It does not rank doctors or replace a professional examination.</p>
+      <div class="about-feature-points"><span><b>01</b> Start with a concern</span><span><b>02</b> Learn which questions to ask</span><span><b>03</b> Confirm your next step with the hospital</span></div>
+      <a class="text-link" href="/find-an-eye-doctor">Explore the specialist guide <b aria-hidden="true">→</b></a>
+    </div>
+  </div>
+</section>
+
 <section class="section"><div class="wrap prose">
   <h2>1. Why this website exists</h2>
   <p>Searching "best eye doctor in Delhi" returns rankings nobody can verify. This website replaces that noise with something better: a structured way to match your concern to the right sub-specialist. We translate "best" into measurable criteria — verified qualifications, relevant sub-speciality, careful diagnosis, clear communication, suitable infrastructure, responsible treatment planning and continuity of care. We are not an official ranking site and never claim any individual is objectively Delhi's number one.</p>

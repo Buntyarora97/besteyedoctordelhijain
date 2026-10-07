@@ -10,7 +10,20 @@
     <?php endforeach; ?>
   </p>
 </div></section>
-<section class="section"><div class="wrap narrow">
+<section class="section"><div class="wrap form-with-aside">
+  <aside class="form-aside">
+    <figure class="form-aside-image">
+      <img src="/public/assets/images/clinical/hospital-pic-9.webp" alt="Seating in the hospital waiting area" width="720" height="480" loading="lazy">
+      <figcaption>Jain Eye Hospital · Shalimar Bagh, Delhi</figcaption>
+    </figure>
+    <div class="form-aside-copy">
+      <p class="eyebrow">Before you write</p>
+      <h2>How can the team help?</h2>
+      <p>Share an appointment or general enquiry. Please do not use this form for urgent symptoms or send detailed medical records here.</p>
+      <a class="text-link" href="/faqs">Read visit FAQs <b aria-hidden="true">→</b></a>
+    </div>
+  </aside>
+  <div class="form-panel">
   <?php if ($ok): ?><p class="success">Message received — Reference <strong><?= e($ok) ?></strong>. We will get back to you.</p><?php endif; ?>
   <?php if ($err): ?><p class="error" role="alert"><?= e($err) ?></p><?php endif; ?>
   <form action="/contact" method="post" class="form">
@@ -23,4 +36,5 @@
     <label>Message <textarea required name="message" rows="5"></textarea></label>
     <button class="btn btn-primary" type="submit">Send Message</button>
   </form>
+  </div>
 </div></section>

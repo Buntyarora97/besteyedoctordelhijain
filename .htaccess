@@ -10,9 +10,13 @@ RewriteBase /
 RewriteCond %{HTTPS} off
 RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [L,R=301]
 
-# Block direct access to app, storage, database
-RewriteRule ^(app|storage|database|admin/controllers|admin/views)/ - [F,L]
+# Block source files, uploads, extracted references and private workspace folders.
+RewriteRule ^(?:app|storage|database|views|attached_assets|besteyedoctordelhiphpmysqlzipzip|screenshots|\.git|\.agents|\.local|\.cache)(?:/|$) - [F,L,NC]
 RewriteRule ^admin(?:/|$) - [F,L]
+RewriteRule ^(?:dev-router\.php|replit\.md|profile\.md)$ - [F,L,NC]
+
+# Provide the conventional sitemap URL while keeping the PHP generator private.
+RewriteRule ^sitemap\.xml$ sitemap.xml.php [L]
 
 # Front controller
 RewriteCond %{REQUEST_FILENAME} !-f

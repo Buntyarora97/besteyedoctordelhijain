@@ -1,0 +1,16 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "r8Po9GNtABsABb7F-Ohzz"
+uri = "file://whatsapp.txt"
+type = "text"
+title = "Website update report"
+description = "WhatsApp-ready Hinglish summary of the verified website, content, SEO, image and contact updates."
+logical_id = "50bbeea1-3f72-4d06-a91c-142d7a5271fe"
+content_hash = "sha256:a0173702b01ae0125e58860a6596281e1651659dc97a1b96ccad07bf4a56866e"
+size = 3428
+mtime_ms = 1791370180764
+storage_uri = "gcs://replit-rams-assets-sisko/rams/assets/repl:1c6d671a-ddd6-490d-b946-8b2a5b85af00/50bbeea1-3f72-4d06-a91c-142d7a5271fe/c5bbcc87-9205-4edb-ad26-99e1145e5472"
+storage_version_token = "1791370197137261"
+content_type = "text/plain"

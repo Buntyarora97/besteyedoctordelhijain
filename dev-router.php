@@ -10,8 +10,24 @@ if ($path === '/admin' || str_starts_with($path, '/admin/')) {
     return true;
 }
 
-if ($path !== '/' && is_file($file)) {
+$publicRoot = realpath(__DIR__ . '/public');
+$resolvedFile = realpath($file);
+if ($path === '/sitemap.xml') {
+    require __DIR__ . '/sitemap.xml.php';
+    return true;
+}
+
+$isPublicAsset = str_starts_with($path, '/public/')
+    && $publicRoot !== false
+    && $resolvedFile !== false
+    && str_starts_with($resolvedFile, $publicRoot . DIRECTORY_SEPARATOR)
+    && is_file($resolvedFile);
+$isApprovedRootFile = in_array($path, ['/index.php', '/robots.txt', '/sitemap.xml.php'], true)
+    && is_file($file);
+
+if ($path !== '/' && ($isPublicAsset || $isApprovedRootFile)) {
     return false;
 }
 
 require __DIR__ . '/index.php';
+return true;

@@ -2,6 +2,7 @@
 $viewFile = dirname(__DIR__) . '/pages/' . $view . '.php';
 if (!file_exists($viewFile)) $viewFile = dirname(__DIR__) . '/errors/404.php';
 $phoneHref = preg_replace('/[^0-9+]/', '', HOSPITAL_PHONE);
+$metaImageUrl = APP_URL . ($metaImage ?? '/public/assets/images/clinical/neha-mohan-4.webp');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -10,23 +11,36 @@ $phoneHref = preg_replace('/[^0-9+]/', '', HOSPITAL_PHONE);
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?= e($pageTitle ?? 'Eye Specialist Guidance in Delhi') ?></title>
 <meta name="description" content="<?= e($metaDescription ?? '') ?>">
+<meta name="keywords" content="<?= e($metaKeywords ?? '') ?>">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="author" content="<?= e(HOSPITAL_NAME) ?>">
+<meta name="theme-color" content="#0d4037">
 <link rel="canonical" href="<?= e($canonical ?? APP_URL) ?>">
 <meta property="og:title" content="<?= e($pageTitle ?? '') ?>">
 <meta property="og:description" content="<?= e($metaDescription ?? '') ?>">
 <meta property="og:type" content="website">
+<meta property="og:url" content="<?= e($canonical ?? APP_URL) ?>">
+<meta property="og:site_name" content="<?= e(HOSPITAL_NAME) ?>">
+<meta property="og:locale" content="en_IN">
+<meta property="og:image" content="<?= e($metaImageUrl) ?>">
+<meta property="og:image:alt" content="Eye examination at Jain Eye Hospital, Delhi">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="<?= e($pageTitle ?? '') ?>">
+<meta name="twitter:description" content="<?= e($metaDescription ?? '') ?>">
+<meta name="twitter:image" content="<?= e($metaImageUrl) ?>">
 <link rel="icon" href="/public/assets/images/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/public/assets/css/style.css">
 <script type="application/ld+json">
-<?= json_encode([
- '@context'=>'https://schema.org','@type'=>'MedicalClinic',
-  'name'=>HOSPITAL_NAME,'url'=>APP_URL,'telephone'=>HOSPITAL_PHONES,
- 'address'=>['@type'=>'PostalAddress','streetAddress'=>'AG 152, Shalimar Bagh','addressLocality'=>'Delhi','postalCode'=>'110088','addressCountry'=>'IN'],
- 'medicalSpecialty'=>['Ophthalmology'],
-], JSON_UNESCAPED_SLASHES) ?>
+<?= json_encode($schemaGraph ?? [], JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT) ?>
 </script>
 </head>
 <?php $bodyRoute = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/'; ?>
-<body<?= $bodyRoute === '/gallery' ? ' class="gallery-route"' : '' ?>>
+<?php
+$bodyClasses = [];
+if ($bodyRoute === '/gallery') $bodyClasses[] = 'gallery-route';
+if (in_array($bodyRoute, ['/contact', '/book-appointment', '/second-opinion', '/location/adarsh-nagar-delhi'], true)) $bodyClasses[] = 'form-route';
+?>
+<body<?= $bodyClasses ? ' class="' . e(implode(' ', $bodyClasses)) . '"' : '' ?>>
 <a class="skip" href="#main">Skip to content</a>
 
 <div class="utility-bar">
@@ -40,7 +54,7 @@ $phoneHref = preg_replace('/[^0-9+]/', '', HOSPITAL_PHONE);
 
 <header class="site-header" id="siteHeader">
   <div class="wrap header-inner">
-    <a href="/" class="brand" aria-label="besteyedoctordelhi.com home">
+    <a href="/" class="brand" aria-label="Jain Eye Hospital home">
       <img class="header-logo" src="/public/assets/images/jain-eye-hospital-logo.webp" alt="Jain Eye Hospital &amp; Laser Centre" width="176" height="54">
       <span class="brand-context"><strong>Delhi Vision Compass</strong><small>Specialist guidance</small></span>
     </a>
@@ -129,10 +143,10 @@ $phoneHref = preg_replace('/[^0-9+]/', '', HOSPITAL_PHONE);
 </footer>
 
 <aside class="social-rail" aria-label="Quick contact links">
-  <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram">◎</a>
-  <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook">f</a>
-  <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="YouTube" title="YouTube">▶</a>
-  <a href="/contact?channel=whatsapp" aria-label="WhatsApp enquiry" title="WhatsApp number pending verification">◔</a>
+  <a href="/gallery" aria-label="View hospital gallery" title="View gallery">▧</a>
+  <a href="/faqs" aria-label="Read frequently asked questions" title="FAQs">?</a>
+  <a href="mailto:<?= e(HOSPITAL_EMAIL) ?>" aria-label="Email the hospital" title="Email">✉</a>
+  <a href="/contact" aria-label="Open contact details" title="Contact">↗</a>
   <a href="tel:<?= e($phoneHref) ?>" aria-label="Call hospital" title="Call hospital">⌕</a>
 </aside>
 
