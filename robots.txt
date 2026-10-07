@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /storage/
+Disallow: /app/
+
+Sitemap: https://besteyedoctordelhi.com/sitemap.xml.php

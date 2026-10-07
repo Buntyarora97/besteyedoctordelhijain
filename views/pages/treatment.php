@@ -1,0 +1,1 @@
+<?php require __DIR__ . '/longform.php';

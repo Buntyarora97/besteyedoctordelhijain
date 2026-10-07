@@ -1,0 +1,1 @@
+- [Approved public contacts](approved-contact-channels.md) — publish only contact details approved by the site owner; check current configuration for exact values.

@@ -1,0 +1,1 @@
+<section class="section"><div class="wrap narrow"><h1>Something went wrong</h1><p>Please try again, or call the hospital. <a href="/">Return home</a>.</p></div></section>

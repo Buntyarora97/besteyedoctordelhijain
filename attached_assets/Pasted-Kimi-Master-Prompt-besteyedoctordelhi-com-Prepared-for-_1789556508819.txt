@@ -1,0 +1,701 @@
+Kimi Master Prompt — besteyedoctordelhi.com
+
+Prepared for a complete, premium, animated, conversion-focused eye-care authority website connected with Jain Eye Hospital & Laser Centre, Delhi.
+
+Copy everything between MASTER PROMPT START and MASTER PROMPT END into Kimi.
+
+MASTER PROMPT START
+
+You are a senior healthcare brand strategist, ophthalmology content architect, UI/UX director, motion designer, technical SEO specialist, security engineer and expert Core PHP/MySQL developer. Build a complete production-ready website from scratch for:
+
+Domain: besteyedoctordelhi.com
+
+Website role: a patient-first Delhi eye-doctor and specialist-discovery authority website
+
+Clinical association: Jain Eye Hospital & Laser Centre, Delhi
+
+Primary language: English, with architecture ready for Hindi later
+
+Technology: Core PHP 8.1+, MySQL 8, HTML5, modern CSS and vanilla JavaScript only
+
+Hosting: standard Linux shared hosting/cPanel; no Node.js required in production
+
+Do not merely provide an outline, design mock-up, one-page landing page or unfinished boilerplate. Generate the complete modular website, SQL schema, secure admin panel, working forms, reusable components, page templates, original content framework, animations, SEO files and deployment documentation. Every menu item and CTA must lead to a real page or working action.
+
+1. Strategic role and ethical positioning
+
+This is not an official ranking site and must never make an unverifiable claim that one individual is objectively “Delhi’s number one” or “the best doctor.” The domain represents the search intent of patients seeking an appropriate eye doctor in Delhi. Translate “best” into measurable patient-selection criteria: relevant sub-speciality, verified qualifications, clear communication, careful diagnosis, suitable infrastructure, responsible treatment planning, continuity of care and transparent expectations.
+
+Core positioning:
+
+“Find the right eye specialist for your concern—through responsible guidance, verified expertise and coordinated care at Jain Eye Hospital.”
+
+The website must help users:
+
+understand symptoms without self-diagnosing;
+
+identify the correct ophthalmic sub-speciality;
+
+compare care pathways without misleading guarantees;
+
+meet verified members of the Jain Eye Hospital team;
+
+book the correct consultation quickly;
+
+access reliable pre-visit and post-treatment education.
+
+Use a calm, premium and reassuring tone. Avoid fear marketing, fake urgency, “100% success,” “permanent cure,” “zero risk,” exaggerated surgery counts, invented awards, misleading before/after claims and unverified rankings.
+
+2. Source hierarchy and mandatory verification
+
+Before publishing, create a content-verification sheet. Use sources in this order:
+
+signed information, CVs, certificates, registration details and service list supplied by Jain Eye Hospital;
+
+the current official Jain Eye Hospital website and approved hospital collateral;
+
+the already approved content used on drrajatjain.com, drnehamohan.com and lasiksurgeryindelhi.com;
+
+reputable clinical sources only for general educational explanations.
+
+Working professional positioning available for initial structure, but all credentials/designations must be checked before live publication:
+
+Dr. Arun Kumar Jain — create a profile only from hospital-approved current details.
+
+Dr. Rajat Jain — Medical Director/Consultant positioning; cataract, cornea and anterior segment, LASIK/refractive care, subject to final hospital verification.
+
+Dr. Neha Mohan — MBBS, MS Ophthalmology, FICO (UK), FAICO, FLVPEI; vitreoretina, uvea and ROP positioning, subject to certificate and designation verification.
+
+Primary contact information currently approved for the project:
+
+Email: info@jaineyehospitals.com
+
+Address: A-14, G. T. Karnal Road, Adarsh Nagar, Opp. Adarsh Nagar Metro Station, New Delhi – 110033, India
+
+Telephone shown in supplied material: 0412 500 063; do not silently “correct” or reformat this. Mark it in admin as verification required before launch, because it does not resemble a standard Delhi landline format.
+
+WhatsApp number, clinic timings, emergency availability, second branch, parking, insurance partners, accreditations and exact map pin: publish only after verification.
+
+Do not copy dummy data from staging websites. Never invent doctors, machines, lens brands, procedures, prices, experience years, patient totals, accreditations or insurance logos. Build admin-controlled draft fields for any unverified information.
+
+3. Relationship with the Jain domain network
+
+Prevent duplicate content and keyword cannibalisation across the related websites:
+
+jaineyehospitalasercentre.com or the final official Jain Eye Hospital domain owns institutional, facility, full-hospital and all-department searches.
+
+drrajatjain.com owns Dr. Rajat Jain’s personal authority, cornea/anterior segment, cataract and professional profile topics.
+
+drnehamohan.com owns Dr. Neha Mohan’s personal authority, retina, uvea and ROP topics.
+
+lasiksurgeryindelhi.com owns deep LASIK/refractive procedure, candidacy, recovery, safety, cost and comparison searches.
+
+besteyedoctordelhi.com owns specialist discovery, symptom-to-specialist guidance, “how to choose an eye doctor,” Delhi patient journeys, second-opinion education and coordinated multi-speciality eye care.
+
+Use short summaries on this site and link to the relevant authoritative domain for deeper information. Do not reuse full paragraphs, FAQs, titles or meta descriptions. All cross-domain links must be natural, descriptive and useful; do not create sitewide exact-match keyword spam. Use canonicals only for genuine duplicates, not as a substitute for original content.
+
+4. Brand identity and design system
+
+Create a sophisticated but approachable identity related to Jain Eye Hospital’s green, orange and white logo theme. The site must feel connected to the hospital but distinct from the hospital website and the doctors’ personal sites.
+
+Suggested palette, adjustable after sampling the final logo:
+
+Deep Vision Green: #123D35
+
+Clinical Teal: #1B7A6E
+
+Jain Accent Orange: #F28C28
+
+Soft Mint: #EAF6F2
+
+Warm Ivory: #FFFDF8
+
+Ink: #14211F
+
+Slate: #65736F
+
+White: #FFFFFF
+
+Maintain WCAG contrast; orange must be used as an accent, not for long body text. Use a premium editorial serif for large headings and a clean geometric sans-serif for UI/body copy, loaded locally or with privacy-conscious fallback fonts. Use large breathing space, precise grids, generous margins, curved image masks, subtle frosted panels, soft shadows and thin anatomical line art. Do not use a dark black-heavy layout, neon effects, generic blue hospital templates or cluttered card grids.
+
+Logo concept: create a domain identity lock-up named “Delhi Vision Compass.” Combine a minimal eye contour, a directional focal point and a subtle Jain orange ray. It should symbolise guidance to the right specialist, not claim superiority. Provide horizontal, stacked, icon-only, monochrome and favicon versions as editable SVG.
+
+5. Signature 3D concept — “The Vision Compass Orbit”
+
+The unique motion language must not repeat the “Living Iris Portal,” “Corneal Focus Prism,” “Retinal Light Atlas” or “Clarity Aperture” concepts used on related sites.
+
+Create a lightweight interactive Vision Compass Orbit:
+
+a semi-transparent glass eye-orbit sculpture on the right of the hero;
+
+three gently rotating rings labelled by meaning, not constantly visible text: Front of Eye, Back of Eye and Child/Complete Care;
+
+a warm orange light point travels to the relevant ring as the slider changes;
+
+a floating doctor portrait card and concern card move with subtle depth;
+
+cursor movement produces maximum 4–6px parallax; mobile uses device-neutral auto motion;
+
+the sculpture resolves into a crisp compass/eye icon as the user scrolls into the specialist finder.
+
+Implement with CSS transforms, SVG, Canvas or an optional lightweight Three.js module loaded only after interaction/idle. Include a static WebP fallback. Respect prefers-reduced-motion; remove parallax and show instant state changes for those users. Never sacrifice page speed or readability for animation.
+
+Global animation rules:
+
+GSAP and ScrollTrigger may be loaded from a pinned CDN with local fallback.
+
+Use gentle 400–800ms motion, natural easing and purposeful transitions.
+
+Animate section reveals, image masks, line drawings, counters only when verified, card depth and route transitions.
+
+No scroll hijacking, excessive pinning, flashing, autoplay audio, cursor trails or animation that blocks forms.
+
+Keep CLS below 0.1 by reserving media dimensions.
+
+6. Mandatory technical architecture
+
+Use Core PHP 8.1+ with PDO prepared statements, MySQL 8, semantic HTML5, modular CSS and vanilla JavaScript. No Laravel, WordPress, React, Next.js, Node server or paid builder. The website must run after uploading files and importing SQL on normal cPanel shared hosting.
+
+Recommended structure:
+
+/app/config, /app/core, /app/helpers, /app/models, /app/controllers
+/admin/controllers, /admin/views
+/public/assets/css, /public/assets/js, /public/assets/images, /public/assets/video
+/views/layouts, /views/components, /views/pages, /views/errors
+/storage/logs, /storage/uploads/private, /storage/cache
+/database/schema.sql, /database/seed.sql
+/.htaccess, /robots.txt, /sitemap.xml.php, /index.php
+
+Create reusable header, footer, breadcrumbs, hero, doctor cards, treatment cards, FAQ accordion, CTA panel, image component, form component, schema builder and pagination. Use clean URL routing with .htaccess; provide a query-string fallback when URL rewriting is unavailable. Protect application/config/private upload folders. Environment/config values must not be committed as public text.
+
+Database tables must include at minimum:
+
+admins, admin_login_attempts, roles, permissions, doctors, doctor_credentials, specialities, conditions, treatments, locations, appointments, appointment_notes, enquiries, second_opinion_requests, uploads, pages, page_versions, faqs, articles, article_categories, media, testimonials, redirects, seo_meta, schema_overrides, site_settings, audit_logs, consent_records and email_logs.
+
+Add proper indexes, foreign keys, timestamps, soft-delete where useful, status enums and utf8mb4. Store uploaded files outside executable public paths or validate and rename securely. Never store medical reports as publicly accessible URLs.
+
+7. Global header, navigation and mega menu
+
+Create a slim utility bar with verified phone/email, “Opp. Adarsh Nagar Metro Station,” accessibility controls and an appointment link. Main header contains logo, navigation, search, Call, WhatsApp and Book Eye Consultation. On mobile use a clear full-height drawer and a sticky bottom bar: Call | WhatsApp | Find Specialist | Book.
+
+Desktop menu:
+
+Home
+
+Find an Eye Doctor
+
+Eye Concerns
+
+Treatments
+
+Doctors
+
+Patient Guide
+
+About
+
+Knowledge Hub
+
+Contact
+
+Build a full-width keyboard-accessible image-preview mega menu. When a user hovers or focuses on Cataract, Retina, Cornea, LASIK/Refractive, Glaucoma, Paediatric Eye Care, Squint, Uveitis, ROP, Dry Eye or General Eye Check-up, the right panel must change to a relevant approved image, a one-line explanation, appropriate specialist and CTA. The menu must also work by tap and keyboard; never make essential content hover-only.
+
+Add a global search overlay that returns doctors, concerns, treatments, FAQs and articles, with typo-tolerant keyword aliases but no auto-diagnosis.
+
+8. Homepage — exactly 12 primary sections
+
+Section 1 — Cinematic split hero
+
+Use a muted, looping, mobile-optimised background video showing an Indian patient moving through a modern eye examination journey—reception, consultation, diagnostic scan and calm discussion. Add poster image, pause control and dark-enough overlay. Left content:
+
+Eyebrow: Eye Specialist Guidance in Delhi
+
+H1: The Right Eye Doctor Starts With the Right Direction.
+
+Supporting text explaining coordinated, sub-speciality-led care at Jain Eye Hospital without claiming an official ranking.
+
+CTAs: Find the Right Specialist and Book an Eye Consultation
+
+Microcopy: Sudden vision loss, flashes, severe pain or eye injury may need urgent assessment—call the hospital.
+
+Right side contains the animated Vision Compass Orbit and a 3-slide portrait/concern visual: Front-of-eye care; retina/back-of-eye care; complete family eye care. Use only real approved doctor portraits.
+
+Section 2 — Quick concern navigator
+
+An accessible chip-and-card selector: Blurry Vision, Cataract Symptoms, Red/Painful Eye, Glasses Removal, Flashes/Floaters, Diabetes & Eyes, Child’s Eye Concern, Squint, Premature Baby/ROP, Routine Check-up and Second Opinion. On selection, show the appropriate speciality and booking path with the disclaimer: “This guide does not diagnose your condition.”
+
+Section 3 — What “best” should mean
+
+Replace promotional superlatives with six evidence-led criteria: verified qualifications, relevant sub-speciality, careful evaluation, shared decision-making, safe infrastructure and follow-up continuity. Use a scroll-drawn compass line connecting the criteria.
+
+Section 4 — Meet the specialist team
+
+Show verified profiles for Dr. Arun Kumar Jain, Dr. Rajat Jain and Dr. Neha Mohan. Each card contains approved designation, verified qualifications, focus areas, languages if confirmed, portrait, View Profile and Book With This Doctor. Do not show unverified years or surgery counts.
+
+Section 5 — Interactive eye-care map
+
+Use an elegant illustrated eye divided into Cornea/Anterior Segment, Lens, Retina/Vitreous, Optic Nerve and Child Vision. Hover/focus/tap reveals related concerns, specialist type and a non-alarming explanation. Include a list-based accessible alternative.
+
+Section 6 — Centres of focused care
+
+Feature Cataract, Cornea, Retina, LASIK/Refractive, Uveitis/ROP and Comprehensive Eye Care. Each gateway uses a unique real photograph plus medically accurate illustration, original short copy and a “Understand Your Options” link.
+
+Section 7 — Your consultation journey
+
+Animated horizontal-on-desktop/vertical-on-mobile pathway: Choose concern → Book → Bring records → Detailed evaluation → Explanation/options → Treatment if appropriate → Follow-up. Explain that treatment is never promised before examination.
+
+Section 8 — Technology with context
+
+Do not create a machine-logo wall. Show only verified diagnostics/technology, what question each test helps answer and why clinical interpretation matters. If the equipment list is not confirmed, show an admin-only placeholder and do not publish brand/model names.
+
+Section 9 — Patient decision studio
+
+Include ethical interactive tools: appointment-preparation checklist, second-opinion checklist, question builder and treatment comparison links. Tools provide education only, do not recommend surgery or generate a diagnosis.
+
+Section 10 — Patient voices and trust
+
+Display only consented, authentic testimonials with source/date/status stored in admin. Use restrained cards, no fabricated star averages. Add approved accreditations, affiliations and awards only after documentary verification. Include link to quality/safety page.
+
+Section 11 — Knowledge hub
+
+Show medically reviewed articles, short doctor videos and FAQ cards grouped by symptom, treatment and life stage. Each article shows author/reviewer, last reviewed date, sources and next review date. Include links to the deeper related doctor/LASIK domains where appropriate.
+
+Section 12 — Location, booking and final reassurance
+
+Use a premium split section with exterior/location image, address, metro landmark, verified timings, directions link and compact appointment form. End with Not sure which specialist to choose? Tell us your concern and our team will guide your booking. Follow with the complete footer.
+
+9. About page — exactly 8 primary sections
+
+Create a substantial 2,500–3,200 word About experience with exactly these eight main sections:
+
+Why this website exists—responsible specialist guidance in Delhi.
+
+Connection to Jain Eye Hospital & Laser Centre.
+
+Care philosophy—listen, examine, explain and decide together.
+
+Multidisciplinary/sub-speciality model and referral logic.
+
+Quality, safety, consent and responsible claims.
+
+Patient journey and continuity of care.
+
+Community education and medically reviewed content commitment.
+
+Location, accessibility, contact and final booking CTA.
+
+Do not invent the hospital’s founding year, mission statement, accreditations or milestones. Add them only as verified admin content.
+
+10. Complete sitemap
+
+Create every page, breadcrumb, navigation link, canonical and database record.
+
+Core pages:
+
+/
+
+/about
+
+/find-an-eye-doctor
+
+/doctors
+
+/doctors/dr-arun-kumar-jain
+
+/doctors/dr-rajat-jain
+
+/doctors/dr-neha-mohan
+
+/why-choose-an-eye-specialist
+
+/second-opinion
+
+/book-appointment
+
+/contact
+
+/location/adarsh-nagar-delhi
+
+Concern pages:
+
+/eye-concerns/blurry-vision
+
+/eye-concerns/sudden-vision-changes
+
+/eye-concerns/flashes-and-floaters
+
+/eye-concerns/red-or-painful-eye
+
+/eye-concerns/watery-or-dry-eyes
+
+/eye-concerns/poor-night-vision
+
+/eye-concerns/diabetes-and-eye-health
+
+/eye-concerns/child-eye-problems
+
+/eye-concerns/squint
+
+/eye-concerns/premature-baby-eye-screening
+
+Speciality/treatment gateway pages:
+
+/eye-care/cataract
+
+/eye-care/cornea-and-anterior-segment
+
+/eye-care/lasik-and-refractive-surgery
+
+/eye-care/retina-and-vitreous
+
+/eye-care/diabetic-retinopathy
+
+/eye-care/uveitis
+
+/eye-care/rop-screening
+
+/eye-care/glaucoma
+
+/eye-care/paediatric-ophthalmology
+
+/eye-care/squint-care
+
+/eye-care/dry-eye
+
+/eye-care/comprehensive-eye-check-up
+
+Patient resources:
+
+/patient-guide/first-visit
+
+/patient-guide/how-to-choose-an-eye-doctor
+
+/patient-guide/questions-to-ask
+
+/patient-guide/prepare-for-eye-surgery
+
+/patient-guide/aftercare
+
+/patient-guide/insurance-and-cashless
+
+/patient-guide/international-and-outstation-patients
+
+/patient-guide/emergency-eye-symptoms
+
+/faqs, /articles, /videos, /gallery
+
+/privacy-policy, /terms, /medical-disclaimer, /accessibility, /sitemap
+
+Create a custom 404 page with concern search, doctor finder and booking—not a dead end.
+
+11. Long-form page content rules
+
+Every major eye-care, concern and patient-decision page must contain 2,500–3,500 words of original, human-readable content when clinical material supports that depth. Do not pad or repeat text. Short legal/contact pages may remain concise.
+
+Each major page must include:
+
+clear H1 and empathetic introduction;
+
+plain-language overview;
+
+relevant anatomy/context;
+
+possible causes or clinical types without self-diagnosis;
+
+symptoms and when routine consultation is appropriate;
+
+red flags requiring urgent contact;
+
+how an ophthalmologist evaluates the concern;
+
+tests described without asserting unverified equipment;
+
+treatment or management pathways;
+
+candidacy and when a procedure may not be suitable;
+
+benefits, limits, risks and alternatives in balanced language;
+
+preparation, procedure-day and recovery expectations when relevant;
+
+follow-up and lifestyle guidance;
+
+questions to ask the doctor;
+
+specialist mapping and verified doctor CTA;
+
+8–12 unique FAQs;
+
+medical reviewer, reviewed date and credible references;
+
+medical disclaimer and next action.
+
+Urgent-warning boxes must be calm and specific. Do not use symptom content to frighten users or tell them they definitely have a disease. ROP content must clearly explain time-sensitive screening while avoiding blame or panic. Content involving children or patient images requires proper consent.
+
+12. Doctor finder and booking logic
+
+Create a responsible five-step finder:
+
+patient age group;
+
+main concern;
+
+sudden vs gradual onset;
+
+known diagnosis/previous report;
+
+preferred appointment timing.
+
+Output must say A consultation with [speciality] may be appropriate and show matching verified doctors. It must never say You have [condition]. If the user reports sudden vision loss, chemical exposure, injury, severe pain, curtain-like shadow or sudden flashes/floaters, show an urgent contact message instead of a routine automated recommendation.
+
+Booking form fields: patient name, age band, phone, email optional, preferred doctor or “help me choose,” concern category, preferred date, time preference, existing patient yes/no, message, consent checkbox and anti-spam token. Do not collect Aadhaar, unnecessary medical history or reports in the basic form.
+
+Second-opinion form may accept PDF/JPG/PNG after explicit consent, secure private storage, MIME inspection, extension/size limits, random filenames and admin-only authenticated download. Display retention policy and do not email sensitive attachments.
+
+After submission, generate a reference ID, show an on-page success receipt and send concise admin/patient emails through authenticated SMTP. Clearly state: Your request has been received; the appointment is confirmed only after the hospital contacts you.
+
+13. Secure admin panel
+
+Create a clean responsive admin under a non-obvious configurable path with:
+
+secure login, password_hash/password_verify, session regeneration, CSRF protection, rate limiting and lockout;
+
+optional email OTP/2FA architecture;
+
+dashboard for new appointments, enquiries, second opinions and content due for review;
+
+filters, search, status changes, notes, CSV export and print view;
+
+doctor, speciality, treatment, concern, FAQ, article, location, testimonial and media management;
+
+drag-and-drop ordering and draft/review/published states;
+
+SEO title, meta description, canonical, OG image, schema and redirect controls;
+
+contact, timings, WhatsApp, social links and emergency text settings;
+
+verification flags for every credential, claim, price, technology and partner logo;
+
+role-based access for Super Admin, Content Editor and Enquiry Manager;
+
+immutable audit log of logins, edits, exports and deletions;
+
+content version history and restore;
+
+medical-review workflow with reviewer and next-review date.
+
+Protect against SQL injection, XSS, CSRF, session fixation, brute force, malicious file upload and direct object reference. Escape output by context. Never expose raw errors in production. Add log rotation and privacy-conscious data retention tools. Destructive actions need confirmation and should soft-delete where reasonable.
+
+14. Images, video and illustration plan
+
+Use many high-quality visuals, but every image must have a purpose. Prioritise a real photo shoot at Jain Eye Hospital:
+
+three approved doctor portraits in horizontal and vertical crops;
+
+doctor-patient consultation with consent;
+
+slit-lamp/examination scenes without exposing patient data;
+
+reception, waiting, diagnostic and counselling spaces;
+
+exterior, entrance and metro-access/location images;
+
+team interaction, sanitisation/safety and patient guidance;
+
+detail images of hands, instruments and screens with no identifiable records.
+
+Create medically accurate custom illustrations for eye anatomy, cornea/lens/retina navigation, cataract vision simulation, retinal warning signs, consultation journey and ROP screening education. AI-generated imagery may be used only as clearly generic decorative support; do not fabricate the hospital interior, doctors, machines, patient outcomes or procedures.
+
+For each asset provide filename, format, desktop/mobile dimensions, aspect ratio, alt text, focal point and placement. Produce AVIF/WebP with JPG fallback, responsive srcset, lazy loading below the fold and reserved dimensions. Suggested hero video: 12–18 seconds, muted, seamless, 1920×1080 desktop and 1080×1350 mobile crop, under approximately 4–6 MB after compression, with poster image and no embedded text.
+
+Never use graphic surgery imagery in navigation or homepage sections. Do not use patient photos without written consent. Avoid fake before/after results; if clinically approved simulations are shown, label them as illustrative.
+
+15. SEO, AEO, GEO and local search
+
+Build SEO into templates, not as an afterthought:
+
+one unique H1 per page, logical headings and semantic landmarks;
+
+unique titles and meta descriptions with editable pixel/character guidance;
+
+self-referencing canonicals, XML sitemap index, HTML sitemap and clean robots.txt;
+
+breadcrumb navigation and BreadcrumbList schema;
+
+valid Organization/MedicalOrganization, Physician, MedicalClinic, MedicalCondition, MedicalProcedure, Article, FAQPage, VideoObject and WebSite schema only where page content supports it;
+
+do not mark up hidden FAQs, fake reviews or unsupported aggregate ratings;
+
+author/reviewer profiles, credentials, reviewed dates and citation fields;
+
+Open Graph/X cards and share images;
+
+redirect manager and 404 monitoring;
+
+Search Console/GA4 consent-ready integration fields without hard-coded IDs.
+
+Primary topic clusters should cover choosing an eye specialist in Delhi, sub-speciality mapping, second opinions, eye symptoms, family eye care and Adarsh Nagar access. Create useful Delhi-area pages only when they contain genuinely local travel/access information; never mass-produce doorway pages for every colony. Avoid stuffing best eye doctor in Delhi repeatedly. Use natural variants and explain selection criteria.
+
+For AEO/GEO, place concise 40–70 word answers beneath clear questions, definition blocks, comparison tables, decision checklists and factually bounded FAQ answers. Each answer should identify uncertainty and suggest consultation when appropriate. Do not write content solely for bots.
+
+Local SEO requirements: consistent approved name/address/phone, embedded verified map, driving/metro landmark instructions, clinic hours, holiday-status field, appointment link and LocalBusiness/MedicalClinic schema. Do not publish an incorrect telephone number merely for NAP consistency—verify first.
+
+16. Performance, accessibility and responsive behaviour
+
+Target Lighthouse 90+ where realistically achievable and Core Web Vitals: LCP under 2.5s, INP under 200ms, CLS under 0.1 on a representative mobile connection.
+
+critical CSS, deferred scripts and code splitting by page;
+
+no heavy 3D bundle above the fold before the poster/essential content;
+
+font subsetting and font-display: swap;
+
+accessible skip link, visible focus, keyboard navigation and 44px touch targets;
+
+properly labelled forms and error summaries;
+
+screen-reader alternatives for interactive anatomy/3D modules;
+
+no colour-only meaning;
+
+accessible accordion/menu/dialog behaviour;
+
+reduced-motion and pause controls;
+
+responsive testing at 320, 375, 768, 1024, 1366 and 1920px;
+
+compatibility with current Chrome, Safari, Firefox and Edge.
+
+17. Security, privacy and shared-hosting deployment
+
+Provide secure .htaccess, HTTPS redirect, security headers compatible with required CDNs, directory listing disabled, protected config/log/private uploads, custom 403/404/500 pages and production error settings. Add server-side validation to every form, CSRF tokens, honeypot/rate limiting, SMTP configuration and a basic backup guide.
+
+The deployment guide must cover:
+
+PHP/MySQL version selection;
+
+database/user creation and least-privilege credentials;
+
+SQL import;
+
+configuration without public secrets;
+
+upload structure and document root;
+
+writable folder permissions without 777;
+
+SMTP setup;
+
+SSL/HTTPS;
+
+cron for content-review reminders and cleanup;
+
+sitemap/robots verification;
+
+Search Console and analytics configuration;
+
+backup/restore test and rollback plan.
+
+Provide privacy policy, terms, medical disclaimer and consent wording. Collect minimum data, define retention and deletion processes and avoid placing sensitive form values in URLs, analytics events or logs.
+
+18. Mandatory pre-launch verification gate
+
+The admin dashboard must prevent unverified claims from going live. Create a checklist requiring explicit confirmation of:
+
+final hospital name and official domain;
+
+exact doctor names, spellings, qualifications, registrations, designations and speciality scope;
+
+primary telephone and valid WhatsApp number;
+
+address, map pin, timings and holiday rules;
+
+services actually offered;
+
+equipment/technology models;
+
+accreditations, awards, memberships and insurance/TPA partners;
+
+consultation fees, packages or prices;
+
+all patient testimonials, images and media consent;
+
+emergency wording and escalation process;
+
+privacy/retention policy and SMTP recipients.
+
+Anything unverified remains draft and invisible publicly. Never fill gaps with plausible-looking data.
+
+19. Acceptance testing
+
+Before declaring completion, verify:
+
+all pages and routes exist; no # links or lorem ipsum;
+
+exactly 12 homepage sections and exactly 8 About main sections;
+
+every long-form page is original and mapped to the right intent;
+
+every doctor/treatment claim has a source/verification status;
+
+menus work with mouse, keyboard and touch;
+
+doctor finder never diagnoses;
+
+all forms save to database, validate, email and show reference IDs;
+
+admin roles, CSRF, rate limits, exports and audit logs work;
+
+uploads cannot execute and private reports are inaccessible publicly;
+
+schema validates and matches visible content;
+
+sitemap, canonicals, robots and redirects are correct;
+
+cross-domain links are useful and content is not duplicated;
+
+images have dimensions/alt text and video has poster/pause/fallback;
+
+mobile performance and reduced-motion mode are tested;
+
+phone, WhatsApp, directions and booking actions work;
+
+404/500 pages provide recovery paths;
+
+SQL schema and sample admin setup instructions work on a fresh database.
+
+20. Final Kimi output order
+
+Deliver the work in this exact order:
+
+concise strategy and verified/unverified data table;
+
+complete sitemap and URL map;
+
+brand system and editable SVG logo files;
+
+wireframe/content map for all 12 homepage sections and 8 About sections;
+
+database ER structure and complete schema.sql;
+
+full folder/file tree;
+
+complete production code file by file;
+
+all page copy/content modules and FAQs;
+
+image/video/illustration manifest and generation briefs;
+
+admin credentials creation procedure, not a hard-coded public password;
+
+SEO metadata, schema and internal-link map;
+
+test report and security checklist;
+
+shared-hosting deployment guide;
+
+final verification checklist listing every placeholder still awaiting hospital approval.
+
+Do not stop after an attractive homepage. Do not say “repeat similarly” for remaining pages. Do not omit PHP handlers, SQL, admin CRUD, mobile states, empty/error/success states or SEO files. If the response limit is reached, continue in clearly numbered parts from the exact next file without repeating earlier work. The finished result must be a coherent, secure and deployable website—not disconnected snippets.
+
+MASTER PROMPT END

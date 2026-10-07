@@ -1,0 +1,1 @@
+<section class="section"><div class="wrap narrow"><h1>Access denied</h1><p>This area is restricted. <a href="/">Return home</a>.</p></div></section>
